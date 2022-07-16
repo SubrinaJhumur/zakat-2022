@@ -100,7 +100,6 @@
     padding-right: 100px;
     width: 50px;
     height: 500px;
-    border-radius: 20px;
 }
 .survive-header{
     margin-left: 250px;
@@ -165,36 +164,70 @@
     color: gray;
     margin-bottom: 50px;
 }
-/* /* .ca-2{
-      text-align: left; */
-
- */
+/* .ca-1{
+    text-align: right;
+    justify-content: right;
+    padding-top: 10px;
+} */
 .card-image{
     text-align: left;
     width: 50px;
     height: 70px;
-    margin-left: 60px;
-    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 15px;
 }
 .card1{
-    margin-left: 150px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    width: 500px;
-    height: 300px;
+    margin-left: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: flex-end;
     border-radius: 10px;
     background-color: rgb(247, 241, 234);
 }
+.ca-header{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ca-text{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
 .card2{
     margin-left: 10px;
-    margin-right: 200px;
-    margin-bottom: 30px;
-    width: 500px;
-    height: 300px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: flex-end;
     text-align: left;
     border-radius: 10px;
-    background-color: rgb(250, 247, 244);
-
+    background-color: rgb(247, 241, 234);
+}
+.ca-header2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ca-text2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
 }
 .first{
     display: flex;
@@ -203,23 +236,57 @@
     display: flex;
 }
 .card3{
-    margin-left: 150px;
-    margin-right: 30px;
-    margin-bottom: 120px;
-    width: 500px;
-    height: 300px;
+    margin-left: 250px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    height: 250px;
     border-radius: 10px;
     background-color: rgb(247, 241, 234);
 }
+.ca-header3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ca-text3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
 .card4{
     margin-left: 10px;
-    margin-right: 200px;
-    margin-bottom: 120px;
-    width: 500px;
-    height: 300px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: flex-end;
     text-align: left;
     border-radius: 10px;
-    background-color: rgb(250, 247, 244);
+    background-color: rgb(247, 241, 234);
+}
+.ca-header4{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ca-text4{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
 }
 .sec4{
     width: 325px;
@@ -245,6 +312,10 @@
     margin-bottom: 150px;
     border-radius: 10px;
 }
+.zakat-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
 .reward{
     text-align: center;
     font-size: 40px;
@@ -264,17 +335,20 @@
 }
 .zakat-img{
     width: 300px;
-    height: 150px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .zakat1{
     width: 300px;
-    height: 400px;
+    height: 420px;
     border-radius: 20px;
     box-shadow: 2px;
-    background-color: beige;
+    border: 1px solid rgb(240, 209, 209);
+    background-color: rgb(243, 243, 239);
     margin-left: 150px;
-    margin-right: 10px;
-    margin-bottom: 50px;
+    margin-right: 5px;
+    margin-bottom: 120px;
 }
 .fund{
     margin-left: 30px;
@@ -297,4 +371,45 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 700;
+}
+.zakat2{
+    width: 300px;
+    height: 420px;
+    border-radius: 20px;
+    box-shadow: 2px;
+    border: 1px solid rgb(240, 209, 209);
+    background-color: rgb(243, 243, 239);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 120px;
+}
+.zakat3{
+    width: 300px;
+    height: 420px;
+    border-radius: 20px;
+    box-shadow: 2px;
+    border: 1px solid rgb(240, 209, 209);
+    background-color: rgb(243, 243, 239);
+    margin-left: 5px;
+    margin-right: 150px;
+    margin-bottom: 120px;
+}
+.ending{
+    height: 200px;
+    background-color: black;
+    text-align: center;
+}
+.eid{
+    font-size: 35px;
+    color: rgb(245, 7, 54);
+    font-family: 'Lobster', cursive;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.eid-text{
+    font-size: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
